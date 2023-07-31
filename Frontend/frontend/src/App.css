@@ -2,8 +2,43 @@
   display: inline-block;
   padding: 10px;
 }
-
-
+.Header-ul li a{
+  color: #fff;
+  background-color: skyblue;
+  padding: 5px;
+  text-decoration: none;
+}
+.Header-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  color: black;
+  background-color: skyblue;
+  width:100%;
+}
+.register{
+  margin-left: 30%;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.signButton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
