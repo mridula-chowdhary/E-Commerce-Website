@@ -21,8 +21,14 @@
   background-color: skyblue;
   width:100%;
 }
-.register{
+.register,.product{
   margin-left: 30%;
+}
+.invalid-input{
+  color:red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
 }
 .login{
   margin-left: 30%;
